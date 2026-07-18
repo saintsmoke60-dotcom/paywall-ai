@@ -14,7 +14,6 @@ export const dynamic = 'force-dynamic';
 // this renders the QR via api.qrserver.com. Swap in `qrcode.react` if you'd
 // rather generate it client-side and make zero external calls.
 
-'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { createBrowserClient } from '@supabase/ssr';
