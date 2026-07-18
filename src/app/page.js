@@ -17,11 +17,11 @@ export const dynamic = 'force-dynamic';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { createBrowserClient } from '@supabase/ssr';
-
 const supabase = createBrowserClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 );
+
 
 const COIN_OPTIONS = [
   { label: 'Bitcoin (BTC)', coin: 'btc', network: 'bitcoin' },
