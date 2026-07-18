@@ -1,3 +1,4 @@
+'use client';
 export const dynamic = 'force-dynamic';
 // Intended path: src/app/page.js
 //
