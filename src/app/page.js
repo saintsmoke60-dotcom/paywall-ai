@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 // Intended path: src/app/page.js
 //
 // Calls the routes built in earlier steps:
